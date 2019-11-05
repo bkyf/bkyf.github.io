@@ -1,0 +1,250 @@
+// Variable Overrides
+
+$theme-colors: (
+  "primary":  #3366CC//#1e219a
+);
+
+$font-family-sans-serif: 'Nunito', sans-serif !default;
+
+$font-family-monospace: 'Nunito', sans-serif !default;
+
+$btn-hover-bg : #ffffff;
+
+
+.my_project_row
+{
+    @extend .shadow;
+    @extend .row;
+    @extend .p-4;
+    @extend .mb-3; 
+    @extend .rounded-lg;
+}
+
+.my_post_row
+{
+    @extend .shadow;
+    @extend .row;
+    @extend .p-4;
+    @extend .rounded-lg;
+}
+
+.my_content_col
+{
+    @extend .col-sm-12; 
+    @extend .col-md-8;
+    @extend .col-lg-8; 
+    @extend .pl-md-4;
+    position: relative;
+}
+
+.my_navbar
+{
+    @extend .navbar; 
+    @extend .container; 
+    @extend .navbar-expand-lg; 
+    @extend .fixed-top; 
+    @extend .navbar-dark; 
+    @extend .bg-primary;
+}
+
+.my_main_container
+{
+    @extend .container;
+    @extend .py-md-5; 
+    @extend .py-sm-3; 
+    @extend .px-0; 
+    @extend .mt-5;
+}
+
+.my_card_text
+{
+    @extend .card-text;
+    @extend .text-justify;
+}
+
+.my_ginature
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.my_hr {
+    // @extend .mx-4;
+    @extend .bg-primary;
+    @extend .w-100;
+    @extend .border;
+    @extend .border-right-0;
+    @extend .border-left-0; 
+    @extend .border-top-0;
+    // width: 30% !important;
+    // border-top: 6px;
+    // /* Set the hr color */
+    // color: #primary; /* old IE */
+    // background-color: #333; /* Modern Browsers */
+}
+
+.myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+.myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+.myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+.myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+
+.carousel-control-prev-icon {
+    background-color: grey !important;
+}
+
+.carousel-control-next-icon {
+    background-color: grey !important;
+}
+
+.carousel-control-prev:hover {
+    background-color: grey !important;
+}
+
+.carousel-control-next:hover {
+    background-color: grey !important;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+
+// Social Buttons
+.my_social_button {
+    @extend .btn;
+    // @extend .btn-primary;
+    @extend .btn-outline-primary;
+    @extend .btn-light;
+    
+}
+
+
+
+.my_social_button:hover{
+    background-color: #3366CC !important;
+}
+
+.my_social_button:hover i{
+    color: white !important;
+}
+
+
+.modal-dialog{
+    max-width: inherit !important;
+}
+
+
+
+.my_social_row
+{
+    @extend .sticky-top;
+    top: 96px !important;
+}
+
+
+h1 a 
+{
+    color: inherit;
+}
+
+p 
+{
+    text-align: justify;
+}
+
+
+.my_sidebar
+{
+    // @extend .bg-primary;
+    // @extend .text-white; 
+    @extend .sticky-top;
+    top: 96px !important;
+}
+
+
+// resize h1 when screen is small
+@media screen and (max-width: 1180px) { //769
+    h1{
+        font-size:28px !important;
+    }
+}
+
+.grey_row
+{
+    @extend .row;
+    background: #F2F2F2;
+}
+
+
+.cv_title
+{
+    @extend .card-title;
+    @extend .p-3;
+    @extend .text-primary;
+}
+
+
+
+// Modal Height
+/*When the modal fills the screen it has an even 2.5% on top and bottom*/
+/*Centers the modal*/
+.modal-dialog 
+{
+    margin: 2.5vh auto;
+}
+
+/*Sets the maximum height of the entire modal to 95% of the screen height*/
+.modal-content 
+{
+    max-height: 95vh;
+    overflow: scroll;
+}
+
+/*Sets the maximum height of the modal body to 90% of the screen height*/
+.modal-body 
+{
+    max-height: 90vh;
+}
+/*Sets the maximum height of the modal image to 69% of the screen height*/
+.modal-body img 
+{
+    max-height: 69vh;
+}
+
+
+
+//////////////////////////////////
+//                              //
+//    IMPORTANT LEASE AS IS     //
+//                              //
+//////////////////////////////////
+
+
+
+// Bootstrap Sass Files
+@import "node_modules/bootstrap/scss/bootstrap"; 

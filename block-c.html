@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Visual Programming for C | Babis Kyfonidis</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
+       
+        
+    </head>
+
+    <body>
+
+           
+        <!-- Navigation Bar --> 
+        
+        <nav class="my_navbar"> <!-- <nav class="navbar navbar-default container navbar-expand-lg navbar-fixed-top navbar-dark bg-primary"> -->
+
+            <a class="navbar-brand" href="/index.html">Babis Kyfonidis</a>
+            
+            <!-- Responsive Menu Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Menu Items -->
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto nav-pills">
+                        <li class="nav-item active">
+                                <a class="nav-link" href="\index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\ux_projects.html">UX Projects</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="\cv.html">CV</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            
+        
+        <div class="my_main_container">
+            
+            <div class="row ">
+
+                <!-- SideBar -->
+               <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="my_sidebar">
+                        <div class="container">
+                            <div class="row bg-primary text-white mb-5">  <!--bg-white text-primary shadow-->
+                                <div class="p-4"> 
+                                    <h1>   Visual programming tool for educating C programming language   </h1>
+                                    <br>
+                                    <div class="my_hr"></div>
+                                    <br>
+                                    <h5> Technical University of Crete </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="my_content_col" >
+                    <div class="container">
+
+
+                        <div class="my_post_row">
+                            <div class="container"> 
+
+                                <!-- HEADER --> 
+                                <div class="row justify-content-center" id="introduction">
+                                    <figure class="figure py-4 m-3" id="figure1">
+                                        <img src="assets/Images/Block-C/main_block_c.png" class="img-fluid " alt="An example C code in Block-C.">
+                                        <figcaption class="figure-caption text-center"><u> Figure 1</u>: An example of a program written in Block-C.
+                                        </figcaption>
+                                    </figure>
+                                    
+                                </div>
+
+                                <!-- POST -->
+                                <div class="row">
+                                    <p>
+                                        <br>
+                                        Block-C is an editor for C programming language which uses visual blocks as 
+                                        for writing programs. 
+                                        It was created from scratch as part of my undergraduate thesis.
+                                        <br>
+                                        The problem BLock-C was designed to solve, was the difficulty that first
+                                        year students face when are first introduced to C language.
+                                        <br>
+                                        Block-C was designed to help them focus on the logic of programming
+                                        instead of the cumbersome syntax of C.
+                                    </p>  
+
+
+                                    <h3 class="w-100">Design</h3>
+                                    <br>
+                                    <p>
+                                        Block-C was designed based on 4 design principles:
+                                        <ol>
+                                            <li>
+                                                <p>
+                                                    <b>Interaction with understandable concepts:</b>
+                                                    Learners should not be expected to
+                                                    manipulate readily resources or tokens which cannot be easily
+                                                    understood such as libraries and the corresponding #include precompiler directive.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <b>
+                                                        Syntactic error prevention:
+                                                    </b>
+                                                    Syntax guidance should be given for
+                                                    the formation of correct C language expressions in a way that
+                                                    eliminates syntactic errors. This is accomplished by the use of visual
+                                                    blocks that make explicit the structure of language expressions.
+                                                    Furthermore, a restricted sub-grammar is used having only
+                                                    the necessary to introduce a novice to C programming.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <b>
+                                                        Beautified code:
+                                                    </b>
+                                                    Guide learners to writing well-structured
+                                                    code employing automatically paired parentheses, brackets,
+                                                    code block limits etc. This is accomplished through the use of
+                                                    graphical blocks. 
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <b>
+                                                        Transitivity of the tool:
+                                                    </b>
+                                                    Enable the learners to 
+                                                    move from Block−C to ordinary textual C
+                                                    programming. Block−C translates block−based
+                                                    code to C plain text code and provides both viewing options.
+                                                    This way, it promotes the understanding of the correspondence
+                                                    between the command blocks and the actual C statements and
+                                                    their syntax.
+                                                </p>
+                                            </li>
+                                        </ol>
+                                    </p>
+
+                                    <br>
+                                    <figure class="figure py-4" id="figure2">
+                                        <a class="pop" href="#figure2">
+                                            <img src="assets/Images/Block-C/blcok_c_text.png" class="figure-img img-fluid rounded px-5" alt=" The exported C programme of Figure 1">
+                                        </a>
+                                        <figcaption class="figure-caption text-center"><u> Figure 2</u>: The exported C programme of Figure 1.
+                                        </figcaption>
+                                    </figure>
+
+                                    <br>
+                                    <h3>Evaluation</h3>
+                                    <p>
+                                        Block-C was evaluated in 3 independent stages; 
+                                        a think aloud evaluation with novices, a think aloud evaluation with 
+                                        experts and one final controlled experiment evaluation with 32 novices.
+                                        <br>
+                                        Between these stages the user interface was refined based on the feedback
+                                        of each evaluation.
+                                    </p>    
+
+                                    <h5> Initial evaluation with novices</h5>
+                                    <p>
+                                        The goal of this evaluation was to address the novice users’
+                                        perspective and identify usability flaws.
+                                        <br>
+                                        Three university students volunteered to evaluate the interface. 
+                                        A think-aloud protocol was used and the participants
+                                        were asked to accomplish a set of twelve tasks of gradual
+                                        difficulty. At the end of the evaluation session the
+                                        users completed a questionnaire.
+                                        <br>
+                                        Some major usability errors and bugs were detected and subsequently solved. 
+                                        Moreover, the users suggested some extra functionality which was
+                                        implemented in the second prototype of the tool.
+                                    </p>
+                                    
+                                    <br>
+                                    <h5>Evaluation with experts</h5>
+                                    <p>
+                                        The purpose in this stage was to get feedback from
+                                        experienced C programming academic teachers. 
+                                        Three lecturers
+                                        from the department of Electrical and Computer Engineering of
+                                        the Technical University of Crete participated in the experiment.
+                                        <br>
+                                        The participants were asked to use
+                                        Block−C and compose a simple C program. During the
+                                        interview they were asked to explain the difference of some
+                                        similar syntactic tokens (e.g. assignment operator “=” vs.
+                                        equality testing operator “==”) using the block commands. They
+                                        were also asked to reflect on how they would explain the
+                                        differences of blocks and its connectors to their students.
+                                        <br>
+                                        The results of this evaluation helped in further discover major
+                                        interface problems. Several bugs were detected and fixed, as
+                                        well. Furthermore, the users contributed in the addition of extra
+                                        functionality.
+                                    </p>
+                                    
+                                    <br>
+                                    <h5>Final Evaluation of Effectiveness</h5>
+                                    This stage aimed at evaluating the learning effectiveness of
+                                    Block−C following controlled group experimentation,
+                                    with the test group used Block−C while the
+                                    control group used plain text C.
+                                    <br>
+                                    In total 32 first-year students participated.
+                                    The participants were randomised in control and test group.
+                                    The evaluation procedure was organized in two sessions.
+                                    <br>
+                                    The first session was introductory and participants of both 
+                                    groups were introduced to the environments used 
+                                    and asked to solve a set of exercises with the help of tutors.
+                                    <br>
+                                    The second stage was the actual evaluation and the participants were asked to solve
+                                    three tasks of increased difficulty in two hours.
+                                    Four tutors were present to help participants only with 
+                                    significant logical errors and not syntactical.
+                                    <br>
+                                    <br>
+                                    
+                                    <h5>Results</h5>
+                                    <p>
+                                        Accoring to the results, with the use of Block-C 1.3, 1.8 and 3 times more 
+                                        participants finished the 1st the 2nd and the 3rd task respectively.
+                                    </p>
+
+
+                                    <!-- CAROUZEL -->
+                                    <div class="container py-2" id='methodologyCarouzel'>
+                                        <div class="row">
+                                            <div class="col-12" id="slider">
+                                                <div id="myCarousel" class="carousel slide myCarousel">
+                                                    <!-- main slider carousel items -->
+                                                    <div class="carousel-inner">
+                                                        <div class="active carousel-item" data-slide-number="0">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/Block-C/1.jpg" class="w-100" alt="Time to accomplish Task 1. Each point represents a student. The results are sorted by accomplishment time.">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="1">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/Block-C/2.jpg" class="w-100" alt="Time to accomplish Task 2. Each point represents a student. The results are sorted by accomplishment time.">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="2">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/Block-C/3.jpg" class="w-100" alt="Time to accomplish Task 3. Each point represents a student. The results are sorted by accomplishment time.">
+                                                            </a>
+                                                        </div>
+                                    
+                                                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                    
+                                                    </div>
+                                                    <!-- main slider carousel nav controls -->
+                                    
+                                                    <div class="container">
+                                                        <div class="row justify-content-center">
+                                                            <div class="col-8" id="slider">
+                                                                <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                                                    <li class="list-inline-item active">
+                                                                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+                                                                            <img src="assets/Images/Block-C/1.jpg" class="img-fluid">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                                                            <img src="assets/Images/Block-C/2.jpg" class="img-fluid">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="list-inline-item">
+                                                                        <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                                                            <img src="assets/Images/Block-C/3.jpg" class="img-fluid">
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row justify-content-center">
+                                            <figure class="figure pb-4" id="figure3">
+                                                <figcaption class="figure-caption text-center"><u> Figure 3</u>: The results of the accomplishment time for the three tasks of the evaluation.
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                        <!--/main slider carousel-->
+                                    </div>
+                                    
+                                    <br>
+                                    <p>
+                                        The participants of the test roup 
+                                        were also asked about the emotions the had during the 
+                                        use evalaution and asked to complete the emotional response scale.
+                                        <br>
+                                        Almost all of them had a pleasant or a neutral emotion, as presented in 
+                                        Figure 4. 
+                                    </p>
+                                    <figure class="figure py-4" id="figure3">
+                                        <a class="pop" href="#figure3">
+                                            <img src="assets/Images/Block-C/resultsEmotions.jpg" class="figure-img img-fluid rounded px-5" alt=" Figure 4: The emotional response of participants of the test group">
+                                        </a>
+                                        <figcaption class="figure-caption text-center"><u> Figure 4</u>: The emotional response of participants of the test group.
+                                        </figcaption>
+                                    </figure>
+
+                                    <br>
+                                    <p>
+                                        At the end of the semester and after the examination period,
+                                        the participants of the test group (Block-C) were asked about
+                                        their opinion about Block-C retrospectively. 
+                                        <br>
+                                        All participants (both those who passed the course and those
+                                        who fail) thought that Block-C was useful in helping them
+                                        learn C, thought that Block-C was effective and were
+                                        positive about suggesting Block-C to other novices.
+                                    </p>
+
+                                    <br>
+                                    <br>
+                                    <p>
+                                        This work has been published in 2017 IEEE Global Engineering Education Conference (EDUCON) and 
+                                        9th International Conference “New Horizons in Industry, Business and Education” (NHIBE 2015).
+                                    </p>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+        <!-- Footer -->
+        <footer class="page-footer navbar-fixed-bottom font-small primary">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© Babis Kyfonidis
+                <a href="mailto:babis@kyfonidis.com"> babis@kyfonidis.com</a>
+            </div>          
+        </footer>
+
+        <!-- Modal, used for popping up the images! -->
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">              
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <figure class="figure">
+                            <img src="" class="figure-img w-100 mx-auto d-block rounded" alt="" id="imagepreview">
+                            <figcaption class="figure-caption text-center" id="imagecaption">AS</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+
+        <!-- Script for pop-up Modal images -->
+        <script type="text/javascript">
+            $(function() {
+                    $('.pop').on('click', function() {
+                        $('#imagepreview').attr('src', $(this).find('img').attr('src'));
+                        $('#imagepreview').attr('alt', $(this).find('img').attr('alt'));
+                        document.getElementById('imagecaption').innerHTML = $(this).find('img').attr('alt');
+                        $('#imagemodal').modal('show');   
+                    });		
+            });
+        </script>
+        
+         <!-- No auto slide change for my carousels -->
+       <script type="text/javascript">
+            $('.carousel').carousel
+            ({
+                    interval: false
+                })
+        </script>
+        
+    </body>
+</html>

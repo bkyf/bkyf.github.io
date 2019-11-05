@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Android e-reader | Babis Kyfonidis</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
+       
+        
+    </head>
+
+    <body data-spy="scroll" data-target="#inpage_navigator" data-offset="50">
+
+           
+        <!-- Navigation Bar --> 
+        <nav class="my_navbar"> <!-- <nav class="navbar navbar-default container navbar-expand-lg navbar-fixed-top navbar-dark bg-primary"> -->
+
+            <a class="navbar-brand" href="/index.html">Babis Kyfonidis</a>
+            
+            <!-- Responsive Menu Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Menu Items -->
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto nav-pills">
+                        <li class="nav-item active">
+                                <a class="nav-link" href="\index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\ux_projects.html">UX Projects</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="\cv.html">CV</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            
+        
+        <div class="my_main_container">
+            <!-- <div class="row">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Library</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                </nav>
+            </div> -->
+            <div class="row ">
+
+               <!-- SideBar -->
+               <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="my_sidebar">
+                        <div class="container">
+                            <div class="row bg-primary text-white mb-5">  <!--bg-white text-primary shadow-->
+                                <div class="p-4"> 
+                                    <h1>  Android e-Reader </h1>
+                                    <br>
+                                    <div class="my_hr"></div>
+                                    <br>
+                                    <h5>University of Glasgow</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                            
+                <!-- Content -->
+                <div class="my_content_col" >
+                    <div class="container">
+
+
+                        <div class="my_post_row">
+                            <div class="container"> 
+
+                                <!-- HEADER --> 
+                                <div class="row justify-content-center" id="introduction">
+                                    
+                                    <figure class="figure py-4" id="figure1">
+                                        <img src="assets/Images/e-reader/logo_e_reader.png" class="figure-img " alt="The logo of the application.">
+                                        <figcaption class="figure-caption text-center"><u> Figure 1</u>: The logo of the application.
+                                        </figcaption>
+                                    </figure>
+                                    
+                                </div>
+
+                                <!-- POST -->
+                                <div class="row">
+                                    <p>
+                                        <br>
+                                        As part of the Mobile-HCI course of  my Masters degree in University of Glasgow 
+                                        I had to create an e-Reader Android app that would help users organise 
+                                        and access their e-book collections.
+                                    </p>    
+                                    
+                                    <h3 id="requirements">Requirements Gathering</h3>
+                                    
+                                    <p>
+                                        A decision had to be made in order to narrow the targeted user group and the scope 
+                                        of the project in general. In order for the design to be more realistic and to be 
+                                        based upon actual users needs, some –already-­‐ e-­‐reader users were interviewed.  
+                                        A semi-­‐structured interview [1] methodology was adopted and the users were interviewed 
+                                        while using their e-­‐reader. A set of predefined “tasks” were performed (like open a book,
+                                         search a book, organise books based on context etc) and also the users could freely demonstrate 
+                                         any other feature they though as interesting or disturbing. The interviewer was keeping notes about 
+                                         the interaction of the users with their e-­‐readers and anything interested that was pointed out by 
+                                         the participants. Moreover, the users were asked how, why, when, where they were using the device and 
+                                         were asked to compare it to printed material. In total 3 participants were interviewed
+                                    </p>    
+
+                                    <h4 id="user_group">Targeted User Group</h4>
+                                    <br>
+
+                                    <p>
+                                        As an outcome of the interview process a distinctive user group, 
+                                        that the application would be targeting at, emerged.
+                                        <br>
+                                        This target group is consisted by the users who have to interact 
+                                        with a big amount of PDF files that do not provide a cover page. 
+                                        Potential subgroups of the target group might be academics (Professors, 
+                                        researchers, students), lawyers, social scientists and generally any group 
+                                        of professionals that need to organise similar PDF files based in context. 
+                                        Moreover, the target group has the need to annotate the files in order to be 
+                                        able to distinguish them without opening them.
+
+                                    </p>
+
+                                    <h4 id="personas">Personas</h4>
+                                    <br>
+                                    <p>
+                                        In order for the users’ needs to be further understood and some potential
+                                        usecase scenarios to be created, some realistic representative individuals of 
+                                        the users’ groups needed to be described. The three personas created are the following:
+                                        
+                                        <br>
+                                        <figure class="figure py-4" id="figure2">
+                                            <img src="assets/Images/e-reader/personas_e-reader.png" class="figure-img img-fluid rounded px-5" alt="The Personas that briefly describe three potential users of the application">
+                                            <figcaption class="figure-caption text-center"><u> Figure 2</u>: The Personas that briefly describe three potential users of the application
+                                            </figcaption>
+                                        </figure>
+                                    </p>
+
+
+                                    <!-- DESIGN -->
+                                    <h3 id="design" class="w-100"> Design </h3>
+                               
+                                    <h4 id="idea">The idea</h4>
+
+                                    <br>
+                                    <p>
+                                        The study of these personas and the mental creation of potential usecase 
+                                        scenarios (personas interacting with their e-­‐reader) gave the designer of 
+                                        the system the following idea: The implementation of an intuitive representation
+                                         of a real world papers’ origination unit for mobile devices.
+                                        The consideration of this abstract idea led to the choice of mapping a file­‐cabinet
+                                         with paper­‐like folders for organizing papers into an e-­‐reader. Even though this
+                                          retrospective idea was not conforming to the modern, abstractive and minimal design 
+                                          that the Android platform uses, this solution would potentially provide an intuitive 
+                                          metaphor to the users. It is questionable whether such a straight mapping of a real 
+                                          world action or object to the virtual world would be successful; thus an evaluation
+                                           procedure was programmed after the first prototype of the application.
+                                        <br>
+                                    </p>
+
+                                    
+                                    <h3 id="idea">Focus Group of experts</h3>
+                                    <br>
+                                    <p>
+                                        This idea that was analysed previously, had to be clearly specified and designed.
+                                         In order for this to happen, a six HCI experts  focus group was organized. 
+                                         In that meeting, the initial idea was presented to the experts and some storyboards where evaluated.
+                                        <br>
+                                    </p> 
+
+                                    <h4 id="prototypes">PowerPoint Prototype</h4>
+                                    <p>
+                                            Continuing the process of design, there was a need of exploiting the results 
+                                            of the brainstorming sessions and move to the fast creation of something that could be tested. 
+                                            Therefore, a set of static GUI screens were created through Photoshop and combined into 
+                                            an interactive PowerPoint presentation..
+                                    </p>
+
+                                    <h4 id="prototypes">Evaluation</h4>
+                                    <p>
+                                            By the time the prototype was ready it had to be evaluated in order to give essential 
+                                            feedback before the implementation.
+                                            <br>
+                                            A task-centred evaluation methodology had to be adopted in order to find all vulnerabilities
+                                             in the design. Thus, the “Think Aloud” methodology  was adopted and the tasks were selected 
+                                             based on the use cases. Four university students volunteered to take part in the evaluation 
+                                             of the prototype.
+                                    </p>
+                                    
+
+                                    <h3 id="implementation"> Implementation </h3>
+                                    <p>
+                                            As a useful feedback was gained in the previous evaluation step, the implementation of 
+                                            the application had to start immediately in order for it to be prepared before the deadline.
+                                    </p>
+
+                                    <h4 id="architecture">Architecture</h4>
+                                    <p>
+                                        The architectural approach that was chosen separated the different GUI pages into individual 
+                                        activities in order to enhance navigation (use of the back button). The model of the architecture 
+                                        was composed by the class Folder and the class Drawer. Folder was responsible for storing the 
+                                        properties and the contents (a list of the PDF files – in our case their names) of a folder. 
+                                        The Drawer class was storing the properties and the contents (a list of the folders) of a Drawer. 
+                                        Moreover, in order for the context to be dynamic a .txt file was used as a database.
+                                        <br>
+                                        <br>
+                                        The graphic population of the folders and the drawers is being done dynamically by inflating the
+                                         proper layouts, customized with the right content (based on the model).
+                                         <br>
+                                        <figure class="figure py-4" id="figure3">
+                                            <img src="assets/Images/e-reader/architecture-diagram_e-reader.jpeg" class="figure-img img-fluid rounded px-5" alt="The architecture diagram of the implementation">
+                                            <figcaption class="figure-caption text-center"><u> Figure 3</u>: The architecture diagram of the implementation
+                                            </figcaption>
+                                        </figure>
+                                    </p>
+
+                                    <h3 id="final_evaluation"> Evaluation of the Working Prototype </h3>
+                                    <p>
+                                            As a result of the implementation, a working but with limited functionality prototype was created. 
+                                            That prototype had to be evaluated with potential users in order for its designer to see if it met the 
+                                            user needs and to “measure” its usability.
+                                    </p>
+
+                                    <h4 id="procedure">Procedure</h4>
+                                    <p>
+                                        Again in this evaluation, because of the similarity of its goal to the previous evaluation, the same 
+                                        methodology was chosen. This time, because it was more difficult to capture the usage of the device 
+                                        by the users the evaluator was just keeping notes. At the end of the evaluation the users were given 
+                                        the same questionnaire as in the first evaluation. For this evaluation, a 3.8 inches Samsung Galaxy 
+                                        ACE 2 with 480 x 800 pixels resolution was used.
+                                    </p>
+
+                                    <h3 id="screens"> Application Screens </h3>
+
+                                    
+                                    <!--Carouzel -->
+                                    <div class="container py-2">
+                                        <div class="row">
+                                            <div class="col-12" id="slider">
+                                                <div id="myCarousel" class="carousel slide myCarousel">
+                                                    <!-- main slider carousel items -->
+                                                    <div class="carousel-inner">
+                                                        <div class="active carousel-item" data-slide-number="0">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_1.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="1">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_2.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="2">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_3.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="3">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_4.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="4">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_5.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </div>
+                                                        <div class="carousel-item" data-slide-number="5">
+                                                            <a class="pop">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_6.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </div>
+                                                        
+                                    
+                                                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                    
+                                                    </div>
+                                                    <!-- main slider carousel nav controls -->
+                                    
+                                    
+                                                    <ul class="carousel-indicators list-inline mx-auto border px-2">
+                                                        <li class="list-inline-item active">
+                                                            <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_1.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_2.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_3.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_4.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_5.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a id="carousel-selector-5" data-slide-to="5" data-target="#myCarousel">
+                                                                <img src="assets/Images/e-reader/e-reader_screens_6.png" class="img-fluid" alt="The screens of the application">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <figure class="figure pb-4" id="figure4">
+                                                <figcaption class="figure-caption text-center"><u> Figure 4</u>: The screens of the application.
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                        <!--/main slider carousel-->
+                                    </div>
+                                    
+                                
+                                        
+
+                                    
+                                            
+
+                                        
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+        
+        <!-- Footer -->
+        <footer class="page-footer navbar-fixed-bottom font-small primary">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© Babis Kyfonidis
+                <a href="mailto:babis@kyfonidis.com"> babis@kyfonidis.com</a>
+            </div>          
+        </footer>
+
+        <!-- Modal, used for popping up the images! -->
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">              
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <figure class="figure">
+                        <img src="" class="figure-img img-fluid rounded" alt="" id="imagepreview">
+                        <figcaption class="figure-caption text-center" id="imagecaption">AS</figcaption>
+                    </figure>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+
+        <!-- No auto slide change for my carousels -->
+       <script type="text/javascript">
+           $('.carousel').carousel
+           ({
+                interval: false
+            })
+       </script>
+
+        <!-- Script for pop-up Modal images -->
+        <script type="text/javascript">
+            $(function() {
+                    $('.pop').on('click', function() {
+                        $('#imagepreview').attr('src', $(this).find('img').attr('src'));
+                        $('#imagepreview').attr('alt', $(this).find('img').attr('alt'));
+                        document.getElementById('imagecaption').innerHTML = $(this).find('img').attr('alt');
+                        $('#imagemodal').modal('show');   
+                    });		
+            });
+        </script>
+
+        <!-- <script> type="text/javascript">
+            $(document).ready(function()
+            {
+                $('.body').scrollspy({
+                    target: '#inpage_navigatoer'
+                });
+            });
+        </script> -->
+    </body>
+</html>
