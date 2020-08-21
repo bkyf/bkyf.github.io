@@ -248,12 +248,12 @@ p
     background-color: grey !important;
 }
 
-.carousel-indicators
+.my-carousel-indicators
 {
     padding: 0px !important;
 }
 
-.carousel-indicators li 
+.my-carousel-indicators li 
 {
     border-radius: 50% !important;
     width: 10px;
@@ -262,9 +262,10 @@ p
 
 .myButton
 {
-    background: #9BDB98; /* 7BE876 #78E873  old:D5E8D4  -image: linear-gradient(to bottom, #78E873 , #1ee700);*/
-    border: 2px solid #498725; /* #498725  old:82b366*/
-    border-radius: 7px;
+    background: #9BDB98 !important;/* 7BE876 #78E873  old:D5E8D4  -image: linear-gradient(to bottom, #78E873 , #1ee700);*/
+    border: 2px solid #498725 !important; /* #498725  old:82b366*/
+    border-radius: 7px !important;
+    padding: 0.2rem 0.5rem !important;
 }
 
 .myButton h4
@@ -274,44 +275,18 @@ p
     font-weight: bold;
 }
 
-.middleColumn
+.my-middleColumn
 {
     align-items: center;
 }
 
-.carousel-item 
+.my-carousel 
 {
-    height: 330px  !important;
-    width: 650px !important;
+    @extend .carousel;
+    border: 2px solid #f0f0f0 !important;
+    padding: 5px !important;
 }
 
-.container-fluid
-{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.container
-{
-    padding-left: 0px;
-    padding-right: 0px;
-    max-width: 650px !important;
-}
-.container
-{
-    padding-left: 0px;
-    padding-right: 0px;
-/* max-width: 650px !important; */
-}
-
-.max-width
-{
-    max-width: 650px !important;
-}
-
-.no-padding
-{
-    padding: 0px;
-}
 
 //////////////////////////////////
 //                              //
@@ -322,5 +297,4 @@ p
 
 
 // Bootstrap Sass Files
-@import "node_modules/bootstrap/scss/bootstrap"; 
-
+@import "../node_modules/bootstrap/scss/bootstrap";

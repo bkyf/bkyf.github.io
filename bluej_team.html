@@ -5,10 +5,11 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <meta charset="UTF-8">
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
         <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
 
        
         
@@ -21,7 +22,7 @@
         
         <nav class="my_navbar"> <!-- <nav class="navbar navbar-default container navbar-expand-lg navbar-fixed-top navbar-dark bg-primary"> -->
 
-            <a class="navbar-brand" href="/index.html">Babis Kyfonidis</a>
+            <a class="navbar-brand" href="./index.html">Babis Kyfonidis</a>
             
             <!-- Responsive Menu Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -33,16 +34,16 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto nav-pills">
                         <li class="nav-item">
-                                <a class="nav-link" href="\index.html">Home</a>
+                                <a class="nav-link" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="\projects.html">Projects</a>
+                            <a class="nav-link" href="./projects.html">Projects</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="\cv.html">CV</a>
+                            <a class="nav-link" href="./cv.html">CV</a>
                         </li>
                     </ul>
                 </div>
@@ -137,24 +138,27 @@
                                     <br>
 
                                     <!-- STRIDE PROMO -->
-                                    <b class="w-100">Stride Promo</b>
-                                        In order to boost the popularity of Stride, I was assigned
-                                        the creation of a pop-up message for BlueJ that will be
-                                        informing the users for its availability in BlueJ and its
-                                        features. The message can be seen in <i>Figure 3</i>.
-                                    <br>
+                                    <p>
+                                        <b class="w-100" id="stride-promo">Stride Promo</b>
+                                        <br>
+                                            In order to boost the popularity of Stride, I was assigned
+                                            the creation of a pop-up message for BlueJ that will be
+                                            informing the users for its availability in BlueJ and its
+                                            features. The message can be seen on Figure 3.
+                                        <br>
+                                    </p>
 
                                     <!-- Figure -->
-                                    <div id="carouselExampleIndicators" class="carousel slide middleColumn" data-ride="carousel" data-interval="6000">
+                                    <div id="carouselExampleIndicators" class="my-carousel slide my-middleColumn" data-ride="carousel" data-interval="6000">
                 
                                         <div class="carousel-inner myCarouselInner">
-                                            <div class="carousel-item myCarouselItem active">
+                                            <div class="carousel-item active">
                                             <img class="d-block w-100" src="assets/Images/bluej/stride_promo_slide1.png" alt="First slide">
                                             </div>
-                                            <div class="carousel-item myCarouselItem">
+                                            <div class="carousel-item">
                                             <img class="d-block w-100" src="assets/Images/bluej/stride_promo_slide2.png" alt="Second slide">
                                             </div>
-                                            <div class="carousel-item myCarouselItem">
+                                            <div class="carousel-item">
                                             <img class="d-block w-100" src="assets/Images/bluej/stride_promo_slide3.png" alt="Third slide">
                                             </div>
                                         </div>
@@ -164,7 +168,7 @@
                                             <div>
                                                 <div class="col-sm-1"></div>
                                                 <div class="col-sm-10">
-                                                <a class="btn myButton" href="http://www.stride-lang.net/what_is_stride/">
+                                                <a class="btn myButton" href="#stride-promo">
                                                     Show me more!
                                                 </a>
                                                 </div>
@@ -181,22 +185,27 @@
                                         </div>
                                     </div>
 
-                                    <!-- STRIDE EXTENSION -->
-                                    <b class="w-100">Stride Extension</b>
-                                        Lately, Stride started gaining increasing attention from 
-                                        the research community and the team decided to reproduce it
-                                        for the development of another popular programming language; Python!
-                                    <br>
-                                        Currently, a web version of Stride for Python is being implemented 
-                                        with the use of modern web technologies (Vue.js and Typescript).
-                                        I have been appointed the coordinator of this project and I am 
-                                        at the moment working with the team on the design and implementation.
-                                    <br>
-                                        The final outcome is intended to be used in conjunction with a popular
-                                        educational hardware device in order to program it. More on this, and the 
-                                        on the tool in general, will be posted in my here as soon as the first 
-                                        prototype is functional.
                                     
+
+                                    <!-- STRIDE EXTENSION -->
+                                    <p>
+                                        <br>
+                                        <b class="w-100">Stride Extension</b>
+                                        <br>
+                                            Lately, Stride started gaining increasing attention from 
+                                            the research community and the team decided to reproduce it
+                                            for the development of another popular programming language; Python!
+                                        <br>
+                                            Currently, a web version of Stride for Python is being implemented 
+                                            with the use of modern web technologies (Vue.js and Typescript).
+                                            I have been appointed the coordinator of this project and I am 
+                                            at the moment working with the team on the design and implementation.
+                                        <br>
+                                            The final outcome is intended to be used in conjunction with a popular
+                                            educational hardware device in order to program it. More on this, and the 
+                                            on the tool in general, will be posted in my here as soon as the first 
+                                            prototype is functional.
+                                    </p>    
                                
                                 </div> <!-- content main row end-->
                                 
@@ -215,25 +224,10 @@
             </div>          
         </footer>
 
-        <!-- Modal, used for popping up the images! -->
-        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">              
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <figure class="figure">
-                        <img src="" class="figure-img img-fluid rounded" alt="" id="imagepreview">
-                        <figcaption class="figure-caption text-center" id="imagecaption">AS</figcaption>
-                    </figure>
-                </div>
-            </div>
-            </div>
-        </div>
 
-    
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
         <!-- No auto slide change for my carousels -->
        <script type="text/javascript">
@@ -243,25 +237,6 @@
             })
        </script>
 
-        <!-- Script for pop-up Modal images -->
-        <script type="text/javascript">
-            $(function() {
-                    $('.pop').on('click', function() {
-                        $('#imagepreview').attr('src', $(this).find('img').attr('src'));
-                        $('#imagepreview').attr('alt', $(this).find('img').attr('alt'));
-                        document.getElementById('imagecaption').innerHTML = $(this).find('img').attr('alt');
-                        $('#imagemodal').modal('show');   
-                    });		
-            });
-        </script>
-
-        <!-- <script> type="text/javascript">
-            $(document).ready(function()
-            {
-                $('.body').scrollspy({
-                    target: '#inpage_navigatoer'
-                });
-            });
-        </script> -->
+    
     </body>
 </html>
