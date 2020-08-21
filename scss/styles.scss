@@ -237,6 +237,81 @@ p
 }
 
 
+//////////////////////////////////
+//                              //
+//        STRIDE PROMO          //
+//                              //
+//////////////////////////////////
+
+.carouselExampleIndicator
+{
+    background-color: grey !important;
+}
+
+.carousel-indicators
+{
+    padding: 0px !important;
+}
+
+.carousel-indicators li 
+{
+    border-radius: 50% !important;
+    width: 10px;
+    height: 10px;
+}
+
+.myButton
+{
+    background: #9BDB98; /* 7BE876 #78E873  old:D5E8D4  -image: linear-gradient(to bottom, #78E873 , #1ee700);*/
+    border: 2px solid #498725; /* #498725  old:82b366*/
+    border-radius: 7px;
+}
+
+.myButton h4
+{
+    padding:1px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.middleColumn
+{
+    align-items: center;
+}
+
+.carousel-item 
+{
+    height: 330px  !important;
+    width: 650px !important;
+}
+
+.container-fluid
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 650px !important;
+}
+.container
+{
+    padding-left: 0px;
+    padding-right: 0px;
+/* max-width: 650px !important; */
+}
+
+.max-width
+{
+    max-width: 650px !important;
+}
+
+.no-padding
+{
+    padding: 0px;
+}
 
 //////////////////////////////////
 //                              //
@@ -248,3 +323,4 @@ p
 
 // Bootstrap Sass Files
 @import "node_modules/bootstrap/scss/bootstrap"; 
+
